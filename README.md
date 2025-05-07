@@ -7,4 +7,8 @@ The fitted result is shown as follow:
 There should be 2 curves but 3, since the initial point and end point is linked as well. Not a serious problem.
 
 Curve was fitted based on the equations:  
-<img src="https://github.com/ICscholar/curve_fit/blob/main/equations.png" width="900px"> 
+<img src="https://github.com/ICscholar/curve_fit/blob/main/equations.png" width="900px">  
+
+## Note
+For curve-fitting, discretizing differential equations using the Euler method is more convenient and accurate than solving them directly, avoiding problems in differentiating multiple composite functions.  
+When fitting the data points obtained from real data points and function modeling, pay attention to the consistency of the abscissa (voltage in this example).
